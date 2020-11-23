@@ -1,0 +1,31 @@
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    background-color: #3280da;
+}
+
+.grid-item {
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 80px;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+}
+
+.new-game {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5rem;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.result {
+font-size: 2rem;
+}
